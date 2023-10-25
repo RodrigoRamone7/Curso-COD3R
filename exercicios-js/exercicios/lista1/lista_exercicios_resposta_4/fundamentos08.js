@@ -17,7 +17,11 @@ function avaliaPontuacoes (stringPontuacoes) {
             piorJogo = i+1;
         }
     }
-    return [qtdQuebraDeRecords, piorJogo]
+    return (
+        console.log(`Você quebrou ${qtdQuebraDeRecords} recordes e seu pior pontuação foi no jogo de número ${piorJogo}`),
+        console.log(`Sua maior pontuação foi de ${maiorPontuacao} pontos`),
+        console.log(`Sua menor pontuação foi de ${menorPontuacao} pontos`)
+        )
 }
  
-console.log(avaliaPontuacoes(stringPontuacoes))
+avaliaPontuacoes(stringPontuacoes)
