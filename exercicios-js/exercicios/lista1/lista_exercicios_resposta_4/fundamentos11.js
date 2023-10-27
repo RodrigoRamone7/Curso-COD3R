@@ -20,4 +20,11 @@ console.log(calcularAnoBissexto(800))
 console.log(calcularAnoBissexto(2020))
 console.log(calcularAnoBissexto(2021))
 
+console.log("")
+console.log(calcularAnoBissexto(2023))
+console.log(calcularAnoBissexto(1700))
+console.log(calcularAnoBissexto(1600))
+console.log(calcularAnoBissexto(4))
+console.log(calcularAnoBissexto(0))
+
 
